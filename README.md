@@ -1,27 +1,37 @@
-# StateManager
+# Angular State Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+This project has been built with Angular version 6.0.7. It is aimed at demonstrating state management with use of **@ngxr/Store** and **@ngrx/effects**.
+It demonstrates User Authentication.
 
-## Development server
+## How to run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clone the repository to your local machine.
 
-## Code scaffolding
+```console
+git clone https://github.com/NimzyMaina/state-manager
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Resolve packages
 
-## Build
+Change to the root direcory of the project and run the following command. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Yarn
 
-## Running unit tests
+```console
+yarn
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### NPM
 
-## Running end-to-end tests
+```console
+npm i -s
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Run development server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run the dev server.
+
+```console
+ng serve -o
+```
